@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	  <link rel="icon" href="./image/election-icon.jpg">
+    <link rel="stylesheet" href="index.css">
+    <title>Bincom Election Result</title>
+    <script defer type="module" src="/index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <img src="./image/ier-icon4.jpg" alt="">
+        <h1>INDEPENDENT<span>Electorial Results</span></h1>
+      </div>
+      <div class="nav">
+        <a href="lgaresults.html">LGA Results</a>
+        <a href="partyresults.html">Party Results</a>
+      </div>
+    </header>
+    <main>
+      <h3>Polling Unit Results</h3>
+      <table bgcolor='black' class="polling-head">
+        <tr bgcolor='white'>
+          <th width="6%" >ID</th>
+          <th width="10%">Polling Unit Id</th>
+          <th width="10%">Party</th>
+          <th width="13%">Party Score</th>
+          <th width="20%">Presiding Officer</th>
+          <th width="23%">Date</th>
+          <th width="18%">Officer IP Address</th>
+        </tr>
+      </table>
+      <div id="polling-results">
+
+      </div>
+      
+    </main>
+  </body>
+</html>

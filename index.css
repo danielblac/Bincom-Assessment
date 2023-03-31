@@ -1,0 +1,229 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    padding: .5em;    
+}
+
+header, .header-logo, .nav {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+
+.nav {
+    gap: 1em;
+    justify-content: space-between;
+    font-size: .8rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header img {
+    width: 2.5em;
+}
+
+header h1 {
+    font-size: 1rem;
+}
+
+header h1 span {
+    display: block;
+    margin-top: -0.3em;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+}
+
+main {
+    width: 100%;
+}
+
+main h3 {
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+table {
+    width: 100%;
+}
+
+.polling-head th {
+    font-size: .6em;
+
+}
+
+.polling-head td {
+    font-size: .65rem;
+}
+
+.lga-table {
+    width: 100%;
+}
+
+th {
+    height: 2.5em;
+    padding: .5em;
+    font-size: .9rem;
+}
+
+td {
+    height: 2.5em;
+    font-size: .7rem;
+}
+
+.total-result {
+    font-weight: bold;
+}
+
+.select-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select {
+    padding: .85em;
+    width: 50%;
+    min-width: 25em;
+}
+
+/* .lg-result-container {
+    width: 100%;
+} */
+
+.lga-result-head {
+    font-weight: bold;
+}
+
+.party-result h4 {
+    font-size: 1.4rem;
+    margin: .5em;
+}
+
+.result-details {
+    background-color: rgba(211, 211, 211, 0.4);
+    padding: 1em;
+}
+
+.percentage-bar-container {
+    height: 1.3em;
+    background-color: rgb(169, 169, 169);
+    margin-top: .6em;
+}
+
+.pdp-percentage-bar {
+    background-color: rgb(10, 247, 10);
+    width: 16.78%;
+    height: 100%;
+    border-right: 3px solid white;
+}
+
+.dpp-percentage-bar {
+    background-color: royalblue;
+    width: 13.63%;
+    height: 100%;
+    border-right: 3px solid white;
+}
+
+.ppa-percentage-bar {
+    background-color: skyblue;
+    width: 13.15%;
+    height: 100%;
+    border-right: 3px solid white;
+}
+
+.anpp-percentage-bar {
+    background-color: purple;
+    width: 11.74%;
+    height: 100%;
+    border-right: 3px solid white;
+}
+
+.acn-percentage-bar {
+    background-color: lightsalmon;
+    width: 11.23%;
+    height: 100%;
+    border-right: 3px solid white;
+}
+
+.cdc-percentage-bar {
+    background-color: chocolate;
+    width: 10.76%;
+    height: 100%;
+    border-right: 3px solid white;
+}
+
+.jp-percentage-bar {
+    background-color: goldenrod;
+    width: 9.87%;
+    height: 100%;
+    border-right: 3px solid white;
+}
+
+.labo-percentage-bar {
+    background-color: rgb(140, 87, 87);
+    width: 8.48%;
+    height: 100%;
+    border-right: 3px solid white;
+}
+
+.cpp-percentage-bar {
+    background-color: red;
+    width: 4.34%;
+    height: 100%;
+    border-right: 3px solid white;
+}
+
+@media (min-width: 650px) {
+    body {
+        padding: 1em;    
+    }
+
+    header img {
+        width: 4em;
+    }
+
+    .nav {
+        gap: 3em;
+        font-size: 1rem;
+        margin-right: 2em;
+    }
+    
+    
+    header h1 {
+        font-size: 1.85rem;
+    }
+    
+    header h1 span {
+        margin-top: -0.3em;
+        font-weight: 400;
+        letter-spacing: 0.13em;
+    }
+
+    .polling-head th {
+        font-size: 1rem;
+    
+    }
+    
+    .polling-head td {
+        font-size: 1rem;
+    }
+
+    td {
+        font-size: 1rem;
+    }
+}
