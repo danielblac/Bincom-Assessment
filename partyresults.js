@@ -23,8 +23,6 @@ const totalVotesCasted = pollingUnitResults.reduce((acc, obj) => {
     return acc + obj.party_score
 }, 0)
 
-console.log(totalVotesCasted)
-
 function getPartyResults() {
     partyResult.innerHTML = `
         <h4>PDP</h4>
